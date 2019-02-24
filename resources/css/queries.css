@@ -119,11 +119,15 @@
     .works-step:last-of-type { margin-bottom: 20px; }
     
 }
-
-
-
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    .logo {
+        height: 80px;
+        margin-top: 9px;
+        margin-left: 2px;
+        width: 75px;
+    }
+    
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
     .og-btn {

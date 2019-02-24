@@ -70,7 +70,7 @@ $(document).ready(function() {
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
-            $('.sticky').css("height","165px");
+            $('.sticky').css("height","160px");
         } else {
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
